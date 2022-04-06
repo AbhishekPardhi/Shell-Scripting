@@ -48,7 +48,7 @@ else
     echo "Both files exists"
 fi
 
-#Writing data from Input file to Output file 
+#Writing data from Input file to Output file
 
 # echo >> Output.txt
 # while IFS= read -r line;do
@@ -56,6 +56,8 @@ fi
 #     //echo "$line" >> Output.txt
 #     echo "$line" | awk ,: '{print $2}' >> Output.txt
 # done < "Input.csv"
+
+printf '' > $fileName2
 
 while IFS=, read -r Name PredominantDegree HighestDegree FundingModel Region Geography AdmissionRate ACTMedian SATAverage AverageCost Expenditure temp; do
     printf '%s %s %s %s %s %s %s %s\n' "$Name" "$PredominantDegree" "$HighestDegree" "$Region" "$Geography" "$AdmissionRate" "$AverageCost" "$Expenditure"  >> $fileName2
