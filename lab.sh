@@ -30,7 +30,10 @@
 echo "Please type two space-separated file names:"
 read fileName1 fileName2 fileName3
 # Condition to check if there exaclty 2 file names are given
-if [[ -z "$fileName1"  ||  -z "$fileName2" ]] || [[ ! -z "$fileName3" ]]; then echo "Please type exactly 2 file names"; else echo "file names are set to '$fileName1' and '$fileName2'"; fi
+if [[ -z "$fileName1"  ||  -z "$fileName2" ]] || [[ ! -z "$fileName3" ]]; then
+echo "Please type exactly 2 file names"
+exit 0
+else echo "file names are set to '$fileName1' and '$fileName2'"; fi
 
 # Condition to check if these two files exits or not
 if [ ! -e "$fileName1" ]
@@ -45,4 +48,16 @@ else
     echo "Both files exists"
 fi
 
-#Writing data from Input file to Output file
+#Writing data from Input file to Output file 
+
+# echo >> Output.txt
+# while IFS= read -r line;do
+#     # echo -e >> Output.txt
+#     //echo "$line" >> Output.txt
+#     echo "$line" | awk ,: '{print $2}' >> Output.txt
+# done < "Input.csv"
+
+while IFS=, read -r Name PredominantDegree HighestDegree FundingModel Region Geography AdmissionRate ACTMedian SATAverage AverageCost Expenditure temp; do
+    printf '%s %s %s %s %s %s %s %s\n' "$Name" "$PredominantDegree" "$HighestDegree" "$Region" "$Geography" "$AdmissionRate" "$AverageCost" "$Expenditure"  >> $fileName2
+done < "$fileName1"
+
