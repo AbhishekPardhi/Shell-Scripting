@@ -1296,234 +1296,242 @@ Neumont University Bachelor's Bachelor's Rocky Mountains Mid-size City 0.7997 37
 |-------------------------------------------------------------------------------------------------------------------------
 | Name of the college whose HighestDegree is Bachelor's
 |-------------------------------------------------------------------------------------------------------------------------
-Birmingham Southern College
-Huntingdon College
-Judson College
-Southeastern Bible College
-Stillman College
-Arizona Christian University
-Lyon College
-Central Baptist College
-Ouachita Baptist University
-University of the Ozarks
-Williams Baptist College
-University of Arkansas-Fort Smith
-Harvey Mudd College
-Menlo College
-Pomona College
-Thomas Aquinas College
-Fort Lewis College
-The Baptist College of Florida
-Eckerd College
-Edward Waters College
-Flagler College-St Augustine
-Florida College
-Abraham Baldwin Agricultural College
-Point University
-Brewton-Parker College
-College of Coastal Georgia
-Gordon State College
-Morehouse College
-Paine College
-Spelman College
-Toccoa Falls College
-Truett-McConnell College
-Young Harris College
-University of Hawaii-West Oahu
-Boise Bible College
-Lewis-Clark State College
-Brigham Young University-Idaho
-Blackburn College
-Eureka College
-Illinois Wesleyan University
-Illinois College
-Lincoln College
-MacMurray College
-Monmouth College
-Trinity Christian College
-DePauw University
-Franklin College
-Hanover College
-Holy Cross College
-Saint Mary's College
-Central College
-Cornell College
-Grinnell College
-Iowa Wesleyan College
-Luther College
-Northwestern College
-Waldorf College
-Wartburg College
-Bethany College
-Bethel College-North Newton
-Central Christian College of Kansas
-Manhattan Christian College
-McPherson College
-Sterling College
-Alice Lloyd College
-Berea College
-Centre College
-Kentucky Wesleyan College
-Transylvania University
-Dillard University
-Louisiana State University-Alexandria
-Bowdoin College
-Colby College
-University of Maine at Fort Kent
-University of Maine at Machias
-Amherst College
-Becker College
-Dean College
-Stonehill College
-Wellesley College
-Adrian College
-Albion College
-Alma College
-Hope College
-Kalamazoo College
-Finlandia University
-Bethany Lutheran College
-Carleton College
-Gustavus Adolphus College
-Macalester College
-University of Minnesota-Crookston
-University of Minnesota-Morris
-North Central University
-Oak Hills Christian College
-College of Saint Benedict
-St Olaf College
-Rust College
-Tougaloo College
-Central Methodist University-College of Liberal Arts and Sciences
-Cottey College
-Culver-Stockton College
-Kansas City Art Institute
-Saint Louis Christian College
-Westminster College
-William Jewell College
-Carroll College
-Doane College-Crete
-York College
-Saint Anselm College
-Barnard College
-Hamilton College
-Hartwick College
-Maria College of Albany
-Marymount Manhattan College
-Paul Smiths College of Arts and Science
-Davis College
-SUNY College of Technology at Alfred
-SUNY College of Agriculture and Technology at Cobleskill
-Farmingdale State College
-Morrisville State College
-Union College
-Vassar College
-Wells College
-Belmont Abbey College
-Brevard College
-Cabarrus College of Health Sciences
-Davidson College
-Guilford College
-Johnson C Smith University
-Livingstone College
-Mount Olive College
-North Carolina Wesleyan College
-William Peace University
-Mid-Atlantic Christian University
-Saint Augustine's University
-St Andrews University
-Dickinson State University
-Cleveland Institute of Art
-Denison University
-Kenyon College
-Ohio Wesleyan University
-Wittenberg University
-The College of Wooster
-Bacone College
-Oklahoma Panhandle State University
-Rogers State University
-University of Science and Arts of Oklahoma
-Linfield College-McMinnville Campus
-Allegheny College
-Dickinson College
-Gettysburg College
-Haverford College
-Lafayette College
-Lycoming College
-Muhlenberg College
-Pennsylvania State University-Penn State New Kensington
-Pennsylvania State University-Penn State Shenango
-Pennsylvania State University-Penn State Wilkes-Barre
-Pennsylvania State University-Penn State Worthington Scranton
-Pennsylvania State University-Penn State Altoona
-Pennsylvania State University-Penn State Beaver
-Pennsylvania State University-Penn State Brandywine
-Pennsylvania State University-Penn State Dubois
-Pennsylvania State University-Penn State Fayette- Eberly
-Pennsylvania State University-Penn State Hazleton
-Pennsylvania State University-Penn State Greater Allegheny
-Pennsylvania State University-Penn State Mont Alto
-Pennsylvania State University-Penn State Schuylkill
-University of Pittsburgh-Bradford
-University of Pittsburgh-Greensburg
-University of Pittsburgh-Johnstown
-Susquehanna University
-Swarthmore College
-Thiel College
-Ursinus College
-Coker College
-Limestone College
-Newberry College
-Presbyterian College
-University of South Carolina-Beaufort
-Wofford College
-Presentation College
-Aquinas College
-Baptist Memorial College of Health Sciences
-Lane College
-Le Moyne-Owen College
-Maryville College
-O'More College of Design
-Tennessee Wesleyan College
-McMurry University
-Paul Quinn College
-Southwestern University
-Southern Vermont College
-Vermont Technical College
-Bluefield College
-Bridgewater College
-Ferrum College
-Hampden-Sydney College
-Randolph-Macon College
-Roanoke College
-Southern Virginia University
-The University of Virginia's College at Wise
-Virginia Military Institute
-Virginia Wesleyan College
-Whitman College
-Bluefield State College
-Davis & Elkins College
-Glenville State College
-West Virginia University Institute of Technology
-Beloit College
-Northland College
-Ripon College
-Watkins College of Art Design & Film
-Neumont University
+| Birmingham Southern College
+| Huntingdon College
+| Judson College
+| Southeastern Bible College
+| Stillman College
+| Arizona Christian University
+| Lyon College
+| Central Baptist College
+| Ouachita Baptist University
+| University of the Ozarks
+| Williams Baptist College
+| University of Arkansas-Fort Smith
+| Harvey Mudd College
+| Menlo College
+| Pomona College
+| Thomas Aquinas College
+| Fort Lewis College
+| The Baptist College of Florida
+| Eckerd College
+| Edward Waters College
+| Flagler College-St Augustine
+| Florida College
+| Abraham Baldwin Agricultural College
+| Point University
+| Brewton-Parker College
+| College of Coastal Georgia
+| Gordon State College
+| Morehouse College
+| Paine College
+| Spelman College
+| Toccoa Falls College
+| Truett-McConnell College
+| Young Harris College
+| University of Hawaii-West Oahu
+| Boise Bible College
+| Lewis-Clark State College
+| Brigham Young University-Idaho
+| Blackburn College
+| Eureka College
+| Illinois Wesleyan University
+| Illinois College
+| Lincoln College
+| MacMurray College
+| Monmouth College
+| Trinity Christian College
+| DePauw University
+| Franklin College
+| Hanover College
+| Holy Cross College
+| Saint Mary's College
+| Central College
+| Cornell College
+| Grinnell College
+| Iowa Wesleyan College
+| Luther College
+| Northwestern College
+| Waldorf College
+| Wartburg College
+| Bethany College
+| Bethel College-North Newton
+| Central Christian College of Kansas
+| Manhattan Christian College
+| McPherson College
+| Sterling College
+| Alice Lloyd College
+| Berea College
+| Centre College
+| Kentucky Wesleyan College
+| Transylvania University
+| Dillard University
+| Louisiana State University-Alexandria
+| Bowdoin College
+| Colby College
+| University of Maine at Fort Kent
+| University of Maine at Machias
+| Amherst College
+| Becker College
+| Dean College
+| Stonehill College
+| Wellesley College
+| Adrian College
+| Albion College
+| Alma College
+| Hope College
+| Kalamazoo College
+| Finlandia University
+| Bethany Lutheran College
+| Carleton College
+| Gustavus Adolphus College
+| Macalester College
+| University of Minnesota-Crookston
+| University of Minnesota-Morris
+| North Central University
+| Oak Hills Christian College
+| College of Saint Benedict
+| St Olaf College
+| Rust College
+| Tougaloo College
+| Central Methodist University-College of Liberal Arts and Sciences
+| Cottey College
+| Culver-Stockton College
+| Kansas City Art Institute
+| Saint Louis Christian College
+| Westminster College
+| William Jewell College
+| Carroll College
+| Doane College-Crete
+| York College
+| Saint Anselm College
+| Barnard College
+| Hamilton College
+| Hartwick College
+| Maria College of Albany
+| Marymount Manhattan College
+| Paul Smiths College of Arts and Science
+| Davis College
+| SUNY College of Technology at Alfred
+| SUNY College of Agriculture and Technology at Cobleskill
+| Farmingdale State College
+| Morrisville State College
+| Union College
+| Vassar College
+| Wells College
+| Belmont Abbey College
+| Brevard College
+| Cabarrus College of Health Sciences
+| Davidson College
+| Guilford College
+| Johnson C Smith University
+| Livingstone College
+| Mount Olive College
+| North Carolina Wesleyan College
+| William Peace University
+| Mid-Atlantic Christian University
+| Saint Augustine's University
+| St Andrews University
+| Dickinson State University
+| Cleveland Institute of Art
+| Denison University
+| Kenyon College
+| Ohio Wesleyan University
+| Wittenberg University
+| The College of Wooster
+| Bacone College
+| Oklahoma Panhandle State University
+| Rogers State University
+| University of Science and Arts of Oklahoma
+| Linfield College-McMinnville Campus
+| Allegheny College
+| Dickinson College
+| Gettysburg College
+| Haverford College
+| Lafayette College
+| Lycoming College
+| Muhlenberg College
+| Pennsylvania State University-Penn State New Kensington
+| Pennsylvania State University-Penn State Shenango
+| Pennsylvania State University-Penn State Wilkes-Barre
+| Pennsylvania State University-Penn State Worthington Scranton
+| Pennsylvania State University-Penn State Altoona
+| Pennsylvania State University-Penn State Beaver
+| Pennsylvania State University-Penn State Brandywine
+| Pennsylvania State University-Penn State Dubois
+| Pennsylvania State University-Penn State Fayette- Eberly
+| Pennsylvania State University-Penn State Hazleton
+| Pennsylvania State University-Penn State Greater Allegheny
+| Pennsylvania State University-Penn State Mont Alto
+| Pennsylvania State University-Penn State Schuylkill
+| University of Pittsburgh-Bradford
+| University of Pittsburgh-Greensburg
+| University of Pittsburgh-Johnstown
+| Susquehanna University
+| Swarthmore College
+| Thiel College
+| Ursinus College
+| Coker College
+| Limestone College
+| Newberry College
+| Presbyterian College
+| University of South Carolina-Beaufort
+| Wofford College
+| Presentation College
+| Aquinas College
+| Baptist Memorial College of Health Sciences
+| Lane College
+| Le Moyne-Owen College
+| Maryville College
+| O'More College of Design
+| Tennessee Wesleyan College
+| McMurry University
+| Paul Quinn College
+| Southwestern University
+| Southern Vermont College
+| Vermont Technical College
+| Bluefield College
+| Bridgewater College
+| Ferrum College
+| Hampden-Sydney College
+| Randolph-Macon College
+| Roanoke College
+| Southern Virginia University
+| The University of Virginia's College at Wise
+| Virginia Military Institute
+| Virginia Wesleyan College
+| Whitman College
+| Bluefield State College
+| Davis & Elkins College
+| Glenville State College
+| West Virginia University Institute of Technology
+| Beloit College
+| Northland College
+| Ripon College
+| Watkins College of Art Design & Film
+| Neumont University
 |-------------------------------------------------------------------------------------------------------------------------
-| Geography: Average Admission Rate
+| Geography       : Average Admission Rate 
 |-------------------------------------------------------------------------------------------------------------------------
-0
-Small Suburb: 0.6521
-Small City: 0.6654
-Mid-size Suburb: 0.7093
-Geography: 0.0000
-Remote Rural: 0.6957
-Distant Rural: 0.6455
-Large City: 0.6066
-Remote Town: 0.6872
-Large Suburb: 0.6394
-Distant Town: 0.6643
-Fringe Rural: 0.6407
-Mid-size City: 0.6285
-Fringe Town: 0.6277
+| Small Suburb    : 0.6521
+| Small City      : 0.6654
+| Mid-size Suburb : 0.7093
+| Geography       : 0.0000
+| Remote Rural    : 0.6957
+| Distant Rural   : 0.6455
+| Large City      : 0.6066
+| Remote Town     : 0.6872
+| Large Suburb    : 0.6394
+| Distant Town    : 0.6643
+| Fringe Rural    : 0.6407
+| Mid-size City   : 0.6285
+| Fringe Town     : 0.6277
+|-------------------------------------------------------------------------------------------------------------------------
+| Top 5 colleges having maximum MedianEarnings   : MedianEarning
+|-------------------------------------------------------------------------------------------------------------------------
+| Albany College of Pharmacy and Health Sciences : 125600
+| Union College                                  : 117900
+| Westminster College                            : 114400
+| MCPHS University                               : 113100
+| University of the Sciences                     : 94000
+|-------------------------------------------------------------------------------------------------------------------------
