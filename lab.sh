@@ -1,3 +1,5 @@
+# This code is written by Abhishek Pardhi IIT KANPUR CSE'24
+
 echo "Please type two space-separated file names:"
 read fileName1 fileName2 fileName3
 # Condition to check if there exaclty 2 file names are given
