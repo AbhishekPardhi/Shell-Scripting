@@ -1513,3 +1513,17 @@ Neumont University
 |-------------------------------------------------------------------------------------------------------------------------
 | Geography: Average Admission Rate
 |-------------------------------------------------------------------------------------------------------------------------
+0
+Small Suburb: 0.6521
+Small City: 0.6654
+Mid-size Suburb: 0.7093
+Geography: 0.0000
+Remote Rural: 0.6957
+Distant Rural: 0.6455
+Large City: 0.6066
+Remote Town: 0.6872
+Large Suburb: 0.6394
+Distant Town: 0.6643
+Fringe Rural: 0.6407
+Mid-size City: 0.6285
+Fringe Town: 0.6277

@@ -52,4 +52,22 @@ echo "|-------------------------------------------------------------------------
 # }'
 # Input.csv >> Output.txt
 
-awk -F',' '{ sum += $7 } END { if (NR > 0) printf("%0.4f", sum/NR) }' Input.csv >> Output.txt
+awk -F',' 'BEGIN {
+    print NR
+    for (i = 1; i <= NR; i++)
+    {
+        print $0
+    }
+}' Input.csv >> Output.txt
+# awk -F',' '{print NR-1 "," $0}' Input.csv >> Output.txt
+
+# awk -F',' 'BEGIN{ for (i=1; i<=2; i++)
+# for (j=1; j<=3; j++)
+# print "haha";}' Input.csv >> Output.txt
+awk -F',' '{ arr[$6] += $7 ; brr[$6] ++}
+END {
+for (var in arr)
+    printf("%s: %0.4f\n",var,arr[var]/brr[var])
+}' Input.csv >> Output.txt
+
+# awk -F',' '{ sum += $7 } END { if (NR > 0) printf("%0.4f", sum/NR) }' Input.csv >> Output.txt
