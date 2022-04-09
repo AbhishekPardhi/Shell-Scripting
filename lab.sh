@@ -63,7 +63,19 @@ while IFS=, read -r Name PredominantDegree HighestDegree FundingModel Region Geo
     printf '%s %s %s %s %s %s %s %s\n' "$Name" "$PredominantDegree" "$HighestDegree" "$Region" "$Geography" "$AdmissionRate" "$AverageCost" "$Expenditure"  >> $fileName2
 done < "$fileName1"
 
+# 4th part:
+
 printf '\n=>List of Name of the colleges whose HighestDegree is Bachelor’s:\n\n' >> $fileName2
+
+while IFS=, read -r Name PredominantDegree HighestDegree FundingModel Region Geography AdmissionRate ACTMedian SATAverage AverageCost Expenditure temp; do
+    if [ $HighestDegree == "Bachelor's" ]; then
+        printf '%s\n' "$Name" >> $fileName2
+    fi
+done < "$fileName1"
+
+# 5th part:
+
+printf '\n=>Geography: Average Admission Rate\n' >> $fileName2
 
 while IFS=, read -r Name PredominantDegree HighestDegree FundingModel Region Geography AdmissionRate ACTMedian SATAverage AverageCost Expenditure temp; do
     if [ $HighestDegree == "Bachelor's" ]; then
