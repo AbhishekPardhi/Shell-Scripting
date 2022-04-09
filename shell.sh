@@ -16,19 +16,40 @@ echo "|-------------------------------------------------------------------------
 
 # awk 'BEGIN { FS = "," } ; { if ($3 == "Bachelor’s") 
 # print $1 }' >> Output.txt
-awk -F',' '{if($3~"Bachelor") print $1;}' Input.csv >> Output.txt
+# awk -F',' '{if($3~"Bachelor") print $1;}' Input.csv >> Output.txt
 
+awk -F',' '$3 == "Bachelor\x27s" { print $1 }' Input.csv >> Output.txt
 echo "|-------------------------------------------------------------------------------------------------------------------------" >> Output.txt
 echo "| Geography: Average Admission Rate" >> Output.txt
 echo "|-------------------------------------------------------------------------------------------------------------------------" >> Output.txt
 
-$ awk -F',' '{
-if($3 <= 40)
-{
-print "The salary of ",$1, " is ", $4, "\n"
-}
-else
-{
-print "The age of ",$1, " is ", $3, "\n"
-}
-}' Input.csv
+# awk -F',' '{
+# if($3 <= 40)
+# {
+# print "The salary of ",$1, " is ", $4, "\n"
+# }
+# else
+# {
+# print "The age of ",$1, " is ", $3, "\n"
+# }
+# }' Input.csv print "Field", i, "is", $i
+
+# gawk
+# 'BEGIN { FS = "," }
+# {
+#     for (i = 1; i <= NR; i++)
+#     {
+#         if ($6 in arr)
+#             arr[$6]+=$7
+#         else
+#             arr[$6]=0
+#     }
+# }'
+# 'END
+# {
+#     for (var in arr)
+#         print ,": ",var;
+# }'
+# Input.csv >> Output.txt
+
+awk -F',' '{ sum += $7 } END { if (NR > 0) printf("%0.4f", sum/NR) }' Input.csv >> Output.txt
