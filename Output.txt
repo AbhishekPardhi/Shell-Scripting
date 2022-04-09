@@ -1530,8 +1530,8 @@ Neumont University Bachelor's Bachelor's Rocky Mountains Mid-size City 0.7997 37
 | Top 5 colleges having maximum MedianEarnings   : MedianEarning
 |-------------------------------------------------------------------------------------------------------------------------
 | Albany College of Pharmacy and Health Sciences : 125600
-| Union College                                  : 117900
-| Westminster College                            : 114400
 | MCPHS University                               : 113100
 | University of the Sciences                     : 94000
+| Massachusetts Institute of Technology          : 86900
+| Stevens Institute of Technology                : 79200
 |-------------------------------------------------------------------------------------------------------------------------
