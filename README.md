@@ -1,4 +1,4 @@
-# -Shell-Scripting
+# Shell-Scripting
 This code is an application of DataScience using UNIX (shell scripting-```awk```) language and is written by ``` Abhishek Pardhi```.\
 ```
 Instructions to run this code:
