@@ -1,39 +1,10 @@
-# declare -a arr
-# read -a arr
-# echo ${arr[@]}
-
-# MY_PROMPT='$ '
-# while :
-# do
-# echo −n "$MY_PROMPT"
-# read line
-# eval "$line"
-# done
-# exit 0
-
-
-#!/bin/bash
-# Reading lines in /etc/fstab.
-# File=/etc/fstab
-# {
-# read line1
-# read line2
-# } < $File
-# echo "First line in $File is:"
-# echo "$line1"
-# echo
-# echo "Second line in $File is:"
-# echo "$line2"
-# exit 0
-
-
 echo "Please type two space-separated file names:"
 read fileName1 fileName2 fileName3
 # Condition to check if there exaclty 2 file names are given
 if [[ -z "$fileName1"  ||  -z "$fileName2" ]] || [[ ! -z "$fileName3" ]]; then
 echo "Please type exactly 2 file names"
 exit 0
-else echo "file names are set to '$fileName1' and '$fileName2'"; fi
+fi
 
 # Condition to check if these two files exits or not
 if [ ! -e "$fileName1" ]
@@ -44,41 +15,48 @@ elif [ ! -e "$fileName2" ]
 then
     echo "File 2 doesn't exist!"
     exit 0
-else
-    echo "Both files exists"
 fi
 
-#Writing data from Input file to Output file
+awk -F',' '{print $1,$2,$3,$5,$6,$7,$10,$11}' "$fileName1" >"$fileName2"
 
-# echo >> Output.txt
-# while IFS= read -r line;do
-#     # echo -e >> Output.txt
-#     //echo "$line" >> Output.txt
-#     echo "$line" | awk ,: '{print $2}' >> Output.txt
-# done < "Input.csv"
+echo "|-------------------------------------------------------------------------------------------------------------------------" >>"$fileName2"
+echo "| Name of colleges whose HighestDegree is Bachelor's" >>"$fileName2"
+echo "|-------------------------------------------------------------------------------------------------------------------------" >>"$fileName2"
 
-printf '' > $fileName2
+awk -F',' '$3 == "Bachelor\x27s" { printf("| %s\n",$1) }' "$fileName1" >>"$fileName2"
 
-while IFS=, read -r Name PredominantDegree HighestDegree FundingModel Region Geography AdmissionRate ACTMedian SATAverage AverageCost Expenditure temp; do
-    printf '%s %s %s %s %s %s %s %s\n' "$Name" "$PredominantDegree" "$HighestDegree" "$Region" "$Geography" "$AdmissionRate" "$AverageCost" "$Expenditure"  >> $fileName2
-done < "$fileName1"
+echo "|-------------------------------------------------------------------------------------------------------------------------" >>"$fileName2"
+echo "| Geography       : Average Admission Rate " >>"$fileName2"
+echo "|-------------------------------------------------------------------------------------------------------------------------" >>"$fileName2"
 
-# 4th part:
+awk -F',' '{ arr[$6] += $7 ; brr[$6] ++ ; if(max<length($6)) max=length($6)}
+END {
+for (var in arr)
+{
+    printf("| %s",var)
+    space=max-length(var)+1
+    for(i=0;i<space;i++) printf " ";
+    printf(": %0.4f\n",arr[var]/brr[var])
+}
+}' "$fileName1" >>"$fileName2"
 
-printf '\n=>List of Name of the colleges whose HighestDegree is Bachelor’s:\n\n' >> $fileName2
+echo "|-------------------------------------------------------------------------------------------------------------------------" >>"$fileName2"
+echo "| Top 5 colleges having maximum MedianEarnings   : MedianEarning" >>"$fileName2"
+echo "|-------------------------------------------------------------------------------------------------------------------------" >>"$fileName2"
 
-while IFS=, read -r Name PredominantDegree HighestDegree FundingModel Region Geography AdmissionRate ACTMedian SATAverage AverageCost Expenditure temp; do
-    if [ $HighestDegree == "Bachelor's" ]; then
-        printf '%s\n' "$Name" >> $fileName2
-    fi
-done < "$fileName1"
+awk -F',' '{ crr[p++] += $16 ; drr[q++] = $1 }
+END {
+PROCINFO["sorted_in"] = "@val_num_desc"
+k=0
+for ( i in crr )
+{
+    if(k==5) break;
+    printf("| %s",drr[i])
+    space=47-length(drr[i])
+    for(j=0;j<space;j++) printf " ";
+    print ":", crr[i]
+    k++
+}
+}' "$fileName1" >>"$fileName2"
 
-# 5th part:
-
-printf '\n=>Geography: Average Admission Rate\n' >> $fileName2
-
-while IFS=, read -r Name PredominantDegree HighestDegree FundingModel Region Geography AdmissionRate ACTMedian SATAverage AverageCost Expenditure temp; do
-    if [ $HighestDegree == "Bachelor's" ]; then
-        printf '%s\n' "$Name" >> $fileName2
-    fi
-done < "$fileName1"
+echo "|-------------------------------------------------------------------------------------------------------------------------" >>"$fileName2"

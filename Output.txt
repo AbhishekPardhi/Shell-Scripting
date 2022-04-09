@@ -1294,7 +1294,7 @@ California State University-Channel Islands Bachelor's Graduate Far West Mid-siz
 DigiPen Institute of Technology Bachelor's Graduate Far West Small City 0.6635 37848 5998
 Neumont University Bachelor's Bachelor's Rocky Mountains Mid-size City 0.7997 37379 3298
 |-------------------------------------------------------------------------------------------------------------------------
-| Name of the college whose HighestDegree is Bachelor's
+| Name of colleges whose HighestDegree is Bachelor's
 |-------------------------------------------------------------------------------------------------------------------------
 | Birmingham Southern College
 | Huntingdon College
